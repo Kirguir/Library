@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="X:\biblio\biblio.exe"/>
+    <OBJFILES value="biblio.obj bokform.obj dmform.obj mform.obj otdform.obj Predmetform.obj 
+      treeform.obj flogin.obj splash.obj"/>
+    <RESFILES value="biblio.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) bokform.dfm dmform.dfm mform.dfm otdform.dfm Predmetform.dfm 
+      treeform.dfm flogin.dfm splash.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dbexpress.lib dsnap.lib cds.lib ibxpress.lib FIBPlus_CB6.lib bdertl.lib 
+      vcldb.lib dbrtl.lib EhLibB60.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib EhLibB60.lib dbrtl.lib vcldb.lib bdertl.lib 
+      FIBPlus_CB6.lib ibxpress.lib cds.lib dsnap.lib dbexpress.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi FIBPlus_CB6.bpi FIBDBMidas_CB6.bpi EhLibB60.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="biblio.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\Docs\biblio;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\source\eh;$(BCB)\source\fb"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\Docs\biblio;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\source\fb;$(BCB)\source\eh"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder6\Bin&quot; -I$(BCB)\ehlib 
+      -I$(BCB)\fibplus\sources -I$(BCB)\ehlib\Units 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; -ID:\Docs\biblio 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I$(BCB)\source\eh 
+      -I$(BCB)\source\fb -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="biblio.res" FORMNAME="" UNITNAME="biblio.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="biblio.cpp" FORMNAME="" UNITNAME="biblio" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bokform.cpp" FORMNAME="BookForm" UNITNAME="bokform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dmform.cpp" FORMNAME="DM" UNITNAME="dmform" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="mform.cpp" FORMNAME="FirstForm" UNITNAME="mform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="otdform.cpp" FORMNAME="OtdelForm" UNITNAME="otdform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Predmetform.cpp" FORMNAME="PredForm" UNITNAME="Predmetform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="treeform.cpp" FORMNAME="MainForm" UNITNAME="treeform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="flogin.cpp" FORMNAME="Login" UNITNAME="flogin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="splash.cpp" FORMNAME="SplashForm" UNITNAME="splash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=4
+Build=1347
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.4.1347
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;C:\Program Files\Borland\CBuilder6\Projects;D:\Docs\biblio;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\source\eh;$(BCB)\source\fb
+Item1=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;C:\Program Files\Borland\CBuilder6\Projects;D:\Docs\biblio;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\source\eh
+Item2=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;C:\Program Files\Borland\CBuilder6\Projects;D:\Docs\biblio;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;D:\Docs\biblio;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\source\fb;$(BCB)\source\eh
+Item1=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;D:\Docs\biblio;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\source\fb
+Item2=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\ehlib;$(BCB)\fibplus\sources;$(BCB)\ehlib\Units;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;D:\Docs\biblio;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlFinalOutputDir]
+Count=1
+Item0=X:\biblio
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
